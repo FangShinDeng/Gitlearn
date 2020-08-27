@@ -22,6 +22,11 @@
 2. 連結遠端數據庫，git remote add origin git@github.com:FangShinDeng/gitlearn-1.git, 但要把"origin"給換成"分支名稱"
 3. 我們取一個分支名稱為 dev, 執行 git remote add dev git@github.com:FangShinDeng/gitlearn-1.git
 4. 在SourceTree上會看到新的dev分支就代表成功了
+5. 用不同的分支管理版本, 把origin當作正式主機, dev當作測試主機
+6. 假設收到一個新的功能開發, 我們要進行開發, 我們先在本地端開發完畢後push到測試環境, 測試環境正常再更新到正式環境. 我們進行一個app.js的當作範例實作
+7. 
+
+
 
 ## 最大學習推薦：
 1. 六角學院的Youtube，0基礎真的是能學會 https://w3c.hexschool.com/git/cfdbd310
