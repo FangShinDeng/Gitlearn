@@ -17,6 +17,12 @@
 4. 使用git commit --amend -m "Welcome To Facebook2"
 5. git log重新查看一次最新提交的git的內容修改成功!
 
+### Branch 分支用法
+1. 新增一個遠端數據庫 gitlearn-1
+2. 連結遠端數據庫，git remote add origin git@github.com:FangShinDeng/gitlearn-1.git, 但要把"origin"給換成"分支名稱"
+3. 我們取一個分支名稱為 dev, 執行 git remote add dev git@github.com:FangShinDeng/gitlearn-1.git
+4. 在SourceTree上會看到新的dev分支就代表成功了
+
 ## 最大學習推薦：
 1. 六角學院的Youtube，0基礎真的是能學會 https://w3c.hexschool.com/git/cfdbd310
 2. 為你自己學Git，擁有很多情境題，在實務中一定要學會的　https://gitbook.tw/
