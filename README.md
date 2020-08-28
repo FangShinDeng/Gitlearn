@@ -27,6 +27,13 @@
 7. 新增app.js, git到本地數據庫, push到dev, dev測試正常
 8. push到origin
 
+### 版本還原
+1. 使用HEAD指標還原至指定版本, 最簡單的方法就是在SourceTree上連續點擊兩下, 看到了HEAD就對了!
+2. 若想透過指令來執行HEAD的版本還原要進行以下步驟
+    #### 1. git log 查看到要還原的commit
+    #### 2. git checkout "1eff26" (可以用tab補齊, 但注意要使用git bash才能補齊, powershell無法補齊)
+3. git checkout master 能直接還原到最新的版本
+
 
 ## 最大學習推薦：
 1. 六角學院的Youtube，0基礎真的是能學會 https://w3c.hexschool.com/git/cfdbd310
