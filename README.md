@@ -44,6 +44,10 @@
 7. git checkout master, 測試回到本地端的master, 在使用git checkout develop回到本地端的develop
 8. 先確保在master的分支上, 使用git merge develop
 
+9. 使用git merge develop --no --ff, 產生出合併時的commit紀錄
+
+
+
 ## 最大學習推薦：
 1. 六角學院的Youtube，0基礎真的是能學會 https://w3c.hexschool.com/git/cfdbd310
 2. 為你自己學Git，擁有很多情境題，在實務中一定要學會的　https://gitbook.tw/
