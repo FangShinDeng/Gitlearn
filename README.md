@@ -43,10 +43,18 @@
 6. 查閱sourceTree上的變化
 7. git checkout master, 測試回到本地端的master, 在使用git checkout develop回到本地端的develop
 8. 先確保在master的分支上, 使用git merge develop
-
 9. 使用git merge develop --no --ff, 產生出合併時的commit紀錄
 
+### git線上考試測試 https://learngitbranching.js.org/?locale=zh_TW
+1. git rebase "重新定義的分支參考基準", 將別的支線移到主線上, 例如: 現在的head在develop的分支上, 用git rebase master, 就能將develop的分支移到主master的下一個commit上
+2. 用checkout將HEAD分離
+3. 用'^'or'~', 來將HEAD還原至前幾個commit, ex: git reset master^, git reset develop~3
+4. 用checkout將HEAD指到某條支線上, 用git reset master推回至前面的commit, 再用git merge '指定commit'到該commit上
+5. git reset master^, 還原至上一個commit
+6. 用git revert HEAD, 新增出一個"原commit'", 讓別人知道我們取消了原本的commit, ex: 原本在c2, git revert HEAD出C2', 代表我們放棄了C2, 而用了C2'
 
+#### git進階用法
+1. git cherry-pick <commit1>空格<commit2>..., 將指定的commit複製到支線上
 
 ## 最大學習推薦：
 1. 六角學院的Youtube，0基礎真的是能學會 https://w3c.hexschool.com/git/cfdbd310
