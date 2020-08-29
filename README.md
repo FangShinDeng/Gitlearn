@@ -34,6 +34,14 @@
     #### 2. git checkout "1eff26" (可以用tab補齊, 但注意要使用git bash才能補齊, powershell無法補齊)
 3. git checkout master 能直接還原到最新的版本
 
+### Branch 本地分支用法
+1. git branch "分支名稱", 即可在本地端創建一隻分支
+2. git branch, 能查看目前在哪條分支上, 正常會看到(master, develop)
+3. git checkout develop, 能切換至本地的develop支線(用git bash的話, 會在後方看見master->develop)
+4. git branch, 重新查看一次, 發現支線轉到了develop上
+5. 在分支上新增檔案並留下commit 'develop分支的第一個commit, 新增all.css'
+6. 查閱sourceTree上的變化
+7. git checkout master, 測試回到本地端的master, 在使用git checkout develop回到本地端的develop
 
 ## 最大學習推薦：
 1. 六角學院的Youtube，0基礎真的是能學會 https://w3c.hexschool.com/git/cfdbd310
