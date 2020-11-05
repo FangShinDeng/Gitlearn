@@ -65,3 +65,8 @@
     2. 為你自己學Git，擁有很多情境題，在實務中一定要學會的　https://gitbook.tw/
 
 ## 一定要會的Git圖形化介面軟體: SourceTree
+
+## 從github上下載代碼
+    範例連結: https://github.com/Soonoonoon/GoogleAPI-Drive-Sheet
+    使用git clone https://github.com/Soonoonoon/GoogleAPI-Drive-Sheet.git
+    就可以把代碼全部抓下來了
